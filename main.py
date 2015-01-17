@@ -9,7 +9,7 @@ start=timeit.default_timer()
 
 G=nx.Graph()
 
-lines = [line.rstrip() for line in open('nodefile.txt')]
+lines = [line.rstrip() for line in open('dataset')]
 dict={}
 
 """Store the edge information in form of a dictionary
